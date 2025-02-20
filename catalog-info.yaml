@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1beta3
+kind: Component
+metadata:
+  name: template-info
+  description: template-info
+  tags:
+    - template
+spec:
+  type: service
+  lifecycle: production
+  owner: team-01
